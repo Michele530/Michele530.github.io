@@ -1,19 +1,10 @@
-@echo off
-REM Script d'automatisation Git simple
+echo [Adding files]
+"C:\Users\ETU\Desktop\HyperClips\PortableGit\bin\git.exe" add .
 
-REM Change le message de commit ici si tu veux
-set COMMIT_MSG=Auto commit
+echo [Committing]
+"C:\Users\ETU\Desktop\HyperClips\PortableGit\bin\git.exe" commit -m "Auto commit"
 
-REM Chemin vers git.exe portable, adapte si besoin
-set GIT_PATH=C:\Users\ETU\Desktop\HyperClips\PortableGit\bin\git.exe
-
-REM Ajoute tous les fichiers modifiés
-"%GIT_PATH%" add .
-
-REM Commit avec message
-"%GIT_PATH%" commit -m "%COMMIT_MSG%"
-
-REM Push sur la branche main (adapté à ton remote)
-"%GIT_PATH%" push -u origin main
+echo [Pushing]
+"C:\Users\ETU\Desktop\HyperClips\PortableGit\bin\git.exe" push -u origin main
 
 pause
