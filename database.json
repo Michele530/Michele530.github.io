@@ -1,82 +1,15 @@
 [
   {
     "id": 1,
-    "author": "YourDiscordNickname",
-    "player": "PlayerInClip",
-    "map": "NameOfTheMap",
-    "type_competition": "Competition / Public Lobby",
-    "weapons": [
-      "WeaponLeftHand",
-      "WeaponRightHand"
-    ],
-    "date_clip": "2025-06-16",
-    "note": 3.0,
-    "url": "https://link-to-the-clip.com"
-  },
-  {
-    "id": 2,
-    "author": "YourDiscordNickname",
-    "player": "PlayerInClip",
-    "map": "NameOfTheMap",
-    "type_competition": "Competition / Public Lobby",
-    "weapons": [
-      "WeaponLeftHand",
-      "WeaponRightHand"
-    ],
-    "date_clip": "2025-06-16",
-    "note": 5.0,
-    "url": "https://link-to-the-clip.com/"
-  },
-  {
-    "id": 3,
-    "author": "Pedro",
-    "player": "Vico le pro",
-    "map": "Canyon",
-    "type_competition": "Public Lobby",
+    "author": "Toga280",
+    "player": "Toga280",
+    "map": "Launchpad",
+    "type_competition": "Dash League",
     "weapons": [
       "Pistols"
     ],
-    "date_clip": "2025-06-16",
-    "note": 1.0,
-    "url": "https://link-to-the-clip.com/"
-  },
-  {
-    "id": 4,
-    "author": "Pedro",
-    "player": "Vico le pro",
-    "map": "Canyon",
-    "type_competition": "Public Lobby",
-    "weapons": [
-      "Pistols"
-    ],
-    "date_clip": "2025-06-16",
-    "note": 1.0,
-    "url": "https://link-to-the-clip.com/"
-  },
-  {
-    "id": 5,
-    "author": "Pedro",
-    "player": "Vico le pro",
-    "map": "Canyon",
-    "type_competition": "Public Lobby",
-    "weapons": [
-      "Pistols"
-    ],
-    "date_clip": "2025-06-16",
-    "note": 4.5,
-    "url": "https://link-to-the-clip.com/"
-  },
-  {
-    "id": 6,
-    "author": "Pedro",
-    "player": "Vico le pro",
-    "map": "Canyon",
-    "type_competition": "Public Lobby",
-    "weapons": [
-      "Pistols"
-    ],
-    "date_clip": "2025-06-16",
-    "note": 5.0,
-    "url": "https://link-to-the-clip.com/"
+    "date_clip": "2025-05-11",
+    "note": null,
+    "url": "https://youtube.com/clip/Ugkxz4DUqhPX1fJNP4giCQ6y_6q6xKE8DAjr?si=l2LsfdfHKORqtytA"
   }
 ]
