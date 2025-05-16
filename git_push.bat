@@ -1,3 +1,5 @@
+cd /d C:\Users\ETU\Desktop\HyperClips\html
+
 echo [Adding files]
 "C:\Users\ETU\Desktop\HyperClips\PortableGit\bin\git.exe" add .
 
@@ -6,5 +8,3 @@ echo [Committing]
 
 echo [Pushing]
 "C:\Users\ETU\Desktop\HyperClips\PortableGit\bin\git.exe" push -u origin main
-
-pause
