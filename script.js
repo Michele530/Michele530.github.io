@@ -22,7 +22,7 @@ function renderTable(data) {
       <td>${clip.map}</td>
       <td>${clip.type_competition}</td>
       <td>${clip.date_clip}</td>
-      <td>${clip.note.toFixed(2)}</td>
+      <p><strong>Note:</strong> ${clip.note != null ? clip.note.toFixed(2) + "/5" : "N/A"}</p>
       <td>${clip.weapons.join(', ')}</td>
       <td><a href="${clip.url}" target="_blank" rel="noopener noreferrer">Voir</a></td>
     `;
