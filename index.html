@@ -1,64 +1,15 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head> 
-<meta charset="UTF-8" />
-<title>Tableau JSON triable</title>
-<style>
-  table { border-collapse: collapse; width: 50%; }
-  th, td { border: 1px solid #ccc; padding: 8px; text-align: left; cursor: pointer; }
-  th:hover { background-color: #eee; }
-</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HyperClips Viewer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <h1>🎥 HyperClips</h1>
+  <div id="clip-list">Loading clips...</div>
 
-<table id="tableau">
-  <thead>
-    <tr>
-      <th onclick="trierTable('auteur')">Auteur</th>
-      <th onclick="trierTable('livre')">Livre</th>
-      <th onclick="trierTable('note')">Note</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-
-<script>
-let data = [];
-let triAscendant = true;
-
-function afficherTableau(donnees) {
-  const tbody = document.querySelector('#tableau tbody');
-  tbody.innerHTML = '';
-  donnees.forEach(item => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td>${item.auteur}</td>
-      <td>${item.livre}</td>
-      <td>${item.note}</td>
-    `;
-    tbody.appendChild(tr);
-  });
-}
-
-function trierTable(clef) {
-  data.sort((a, b) => {
-    if (a[clef] < b[clef]) return triAscendant ? -1 : 1;
-    if (a[clef] > b[clef]) return triAscendant ? 1 : -1;
-    return 0;
-  });
-  triAscendant = !triAscendant;
-  afficherTableau(data);
-}
-
-// Charger les données depuis database.json
-fetch('database.json')
-  .then(response => response.json())
-  .then(json => {
-    data = json;
-    afficherTableau(data);
-  })
-  .catch(err => console.error('Erreur chargement JSON:', err));
-</script>
-
+  <script src="script.js"></script>
 </body>
 </html>
