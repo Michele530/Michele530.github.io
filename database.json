@@ -1,6 +1,82 @@
 [
-    {"auteur": "Dupont", "livre": "Le Vent", "note": 7},
-    {"auteur": "Martin", "livre": "La Pluie", "note": 9},
-    {"auteur": "Durand", "livre": "Le Soleil", "note": 8}
-  ]
-  
+  {
+    "id": 1,
+    "author": "YourDiscordNickname",
+    "player": "PlayerInClip",
+    "map": "NameOfTheMap",
+    "type_competition": "Competition / Public Lobby",
+    "weapons": [
+      "WeaponLeftHand",
+      "WeaponRightHand"
+    ],
+    "date_clip": "2025-06-16",
+    "note": 3.0,
+    "url": "https://link-to-the-clip.com"
+  },
+  {
+    "id": 2,
+    "author": "YourDiscordNickname",
+    "player": "PlayerInClip",
+    "map": "NameOfTheMap",
+    "type_competition": "Competition / Public Lobby",
+    "weapons": [
+      "WeaponLeftHand",
+      "WeaponRightHand"
+    ],
+    "date_clip": "2025-06-16",
+    "note": 5.0,
+    "url": "https://link-to-the-clip.com/"
+  },
+  {
+    "id": 3,
+    "author": "Pedro",
+    "player": "Vico le pro",
+    "map": "Canyon",
+    "type_competition": "Public Lobby",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-06-16",
+    "note": 1.0,
+    "url": "https://link-to-the-clip.com/"
+  },
+  {
+    "id": 4,
+    "author": "Pedro",
+    "player": "Vico le pro",
+    "map": "Canyon",
+    "type_competition": "Public Lobby",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-06-16",
+    "note": 1.0,
+    "url": "https://link-to-the-clip.com/"
+  },
+  {
+    "id": 5,
+    "author": "Pedro",
+    "player": "Vico le pro",
+    "map": "Canyon",
+    "type_competition": "Public Lobby",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-06-16",
+    "note": 4.5,
+    "url": "https://link-to-the-clip.com/"
+  },
+  {
+    "id": 6,
+    "author": "Pedro",
+    "player": "Vico le pro",
+    "map": "Canyon",
+    "type_competition": "Public Lobby",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-06-16",
+    "note": 5.0,
+    "url": "https://link-to-the-clip.com/"
+  }
+]
