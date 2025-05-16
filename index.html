@@ -1,15 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HyperClips Viewer</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8" />
+<title>HyperClips by Vico</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 20px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+  th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+  th { background: #eee; }
+</style>
 </head>
 <body>
-  <h1>🎥 HyperClips by Vico (best rocketeer)</h1>
-  <div id="clip-list">Loading clips...</div>
 
-  <script src="script.js"></script>
+<h2>Liste des avis</h2>
+
+<label for="filter">Trier par : </label>
+<select id="filter">
+  <option value="noteAsc">Note ↑</option>
+  <option value="noteDesc">Note ↓</option>
+  <option value="authorAsc">Auteur A→Z</option>
+  <option value="authorDesc">Auteur Z→A</option>
+</select>
+
+<table id="tableData">
+  <thead>
+    <tr><th>Auteur</th><th>Note</th><th>Commentaire</th></tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script>
+const data = [
+  { author: "Alice", note: 4, comment: "Très bon" },
+  { author: "Bob", note: 2, comment: "Pas top" },
+  { author: "Charlie", note: 5, comment: "Excellent" },
+  { author: "David", note: 3, comment: "Moyen" }
+];
+
+const tbody = document.querySelector('#tableData tbody');
+const select = document.getElementById('filter');
+
+function renderTable(arr) {
+  tbody.innerHTML = '';
+  arr.forEach(item => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${item.author}</td><td>${item.note}</td><td>${item.comment}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+// fonction de tri selon option sélectionnée
+function sortData(criteria) {
+  let sorted = [...data];
+  switch(criteria) {
+    case 'noteAsc':
+      sorted.sort((a,b) => a.note - b.note);
+      break;
+    case 'noteDesc':
+      sorted.sort((a,b) => b.note - a.note);
+      break;
+    case 'authorAsc':
+      sorted.sort((a,b) => a.author.localeCompare(b.author));
+      break;
+    case 'authorDesc':
+      sorted.sort((a,b) => b.author.localeCompare(a.author));
+      break;
+  }
+  return sorted;
+}
+
+// affichage initial
+renderTable(data);
+
+// événement sur select pour trier à la volée
+select.addEventListener('change', () => {
+  const sorted = sortData(select.value);
+  renderTable(sorted);
+});
+</script>
+
 </body>
 </html>
