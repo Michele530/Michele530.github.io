@@ -5,34 +5,32 @@ body {
     padding: 20px;
     margin: 0;
   }
-  
   h1 {
     text-align: center;
     color: #00ffcc;
   }
-  
-  #clip-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 16px;
+  table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
   }
-  
-  .clip-card {
-    background: #1f1f1f;
-    padding: 15px;
-    border-radius: 10px;
+  th, td {
     border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
   }
-  
-  .clip-card h2 {
-    font-size: 18px;
-    margin-bottom: 8px;
+  th {
+    background-color: #1f1f1f;
+    cursor: pointer;
+    user-select: none;
+  }
+  th.sort-asc::after {
+    content: " ▲";
+  }
+  th.sort-desc::after {
+    content: " ▼";
+  }
+  a {
     color: #00d0ff;
-  }
-  
-  .clip-card p {
-    margin: 4px 0;
-    font-size: 14px;
   }
   
