@@ -1,7 +1,8 @@
 const CLIP_LIST = document.getElementById("clip-list");
 
 // Remplace cette URL par le lien vers ton fichier JSON sur GitHub
-const JSON_URL = "https://raw.githubusercontent.com/<ton-user>/<ton-repo>/main/database.json";
+const JSON_URL = "https://raw.githubusercontent.com/<ton-user>/<ton-repo>/main/database.json"
+;
 
 fetch(JSON_URL)
   .then((response) => {
