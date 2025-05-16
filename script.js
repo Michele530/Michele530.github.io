@@ -31,18 +31,23 @@ function renderTable(data) {
 }
 
 function compareValues(a, b, asc, key) {
-  if (key === 'note' || key === 'id') {
-    a = Number(a);
-    b = Number(b);
-  } else {
-    a = a.toString().toLowerCase();
-    b = b.toString().toLowerCase();
+    if (key === 'note' || key === 'id') {
+      a = Number(a);
+      b = Number(b);
+    } else if (key === 'weapons') {
+      // Convertir le tableau d'armes en string jointe, minuscule pour trier
+      a = (a || []).join(', ').toLowerCase();
+      b = (b || []).join(', ').toLowerCase();
+    } else {
+      a = a.toString().toLowerCase();
+      b = b.toString().toLowerCase();
+    }
+  
+    if (a < b) return asc ? -1 : 1;
+    if (a > b) return asc ? 1 : -1;
+    return 0;
   }
-
-  if (a < b) return asc ? -1 : 1;
-  if (a > b) return asc ? 1 : -1;
-  return 0;
-}
+  
 
 function sortData(key) {
   if (currentSort.key === key) {
@@ -71,7 +76,7 @@ table.querySelectorAll('th[data-key]').forEach(th => {
 
 fetch(JSON_URL)
   .then(res => {
-    if (!res.ok) throw new Error('Erreur de chargement du JSON');
+    if (!res.ok) throw new Error('Fail to load JSON file (ask Vico to solve this)');
     return res.json();
   })
   .then(data => {
