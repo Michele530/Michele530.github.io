@@ -1,3 +1,5 @@
+@echo off
+
 cd /d C:\Users\ETU\Desktop\HyperClips\html
 
 echo [Adding files]

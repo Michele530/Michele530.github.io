@@ -24,5 +24,18 @@
     "date_clip": "2025-04-17",
     "note": 3.5,
     "url": "https://youtube.com/clip/UgkxdKAAREI03aufAgrjBi91T4jgwOyOsmh7?si=mlTi9V2TvsLP-kiX"
+  },
+  {
+    "id": 3,
+    "author": "Rayan",
+    "player": "Rayan",
+    "map": "Launchpad",
+    "type_competition": "Dash League",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-05-11",
+    "note": null,
+    "url": "https://www.youtube.com/clip/UgkxXLqjd-cnPiiLz8p-Iz32cbsHxrB9ywBP"
   }
 ]
