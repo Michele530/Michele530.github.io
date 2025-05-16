@@ -76,5 +76,18 @@
     "date_clip": "2025-05-10",
     "note": null,
     "url": "https://youtube.com/clip/UgkxbUKsV2pF-m_ZWWIOUB1XSnFGuoNlBn4E?feature=shared"
+  },
+  {
+    "id": 7,
+    "author": "Toga280",
+    "player": "Toga280",
+    "map": "Launchpad",
+    "type_competition": "Dash League",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-05-04",
+    "note": null,
+    "url": "https://www.youtube.com/clip/Ugkx1JPsEBitH15gVRKpwcgKpRbp3SkbXX4y"
   }
 ]
