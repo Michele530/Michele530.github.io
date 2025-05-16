@@ -50,5 +50,31 @@
     "date_clip": "2025-05-11",
     "note": 3.5,
     "url": "https://youtube.com/clip/Ugkxmz1_dDn3bzEMVPch7CD3MH8uRxVMAUIC?si=eGeb48GGSCaOePI8"
+  },
+  {
+    "id": 5,
+    "author": "Vico",
+    "player": "Vico",
+    "map": "Volcano",
+    "type_competition": "Dash League",
+    "weapons": [
+      "Rockets"
+    ],
+    "date_clip": "2025-05-04",
+    "note": null,
+    "url": "https://youtube.com/clip/UgkxBo9XKq_zMqGKga-rAM5RbtF3JIkxXlIg?si=VhNlfv5L1IkdwRWC"
+  },
+  {
+    "id": 6,
+    "author": "Xyota",
+    "player": "Xyota",
+    "map": "Launchpad",
+    "type_competition": "Dash League",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-05-10",
+    "note": null,
+    "url": "https://youtube.com/clip/UgkxbUKsV2pF-m_ZWWIOUB1XSnFGuoNlBn4E?feature=shared"
   }
 ]
