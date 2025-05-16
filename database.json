@@ -61,7 +61,7 @@
       "Rockets"
     ],
     "date_clip": "2025-05-04",
-    "note": null,
+    "note": 5.0,
     "url": "https://youtube.com/clip/UgkxBo9XKq_zMqGKga-rAM5RbtF3JIkxXlIg?si=VhNlfv5L1IkdwRWC"
   },
   {
@@ -74,7 +74,7 @@
       "Pistols"
     ],
     "date_clip": "2025-05-10",
-    "note": null,
+    "note": 2.0,
     "url": "https://youtube.com/clip/UgkxbUKsV2pF-m_ZWWIOUB1XSnFGuoNlBn4E?feature=shared"
   },
   {
@@ -87,7 +87,33 @@
       "Pistols"
     ],
     "date_clip": "2025-05-04",
-    "note": null,
+    "note": 4.0,
     "url": "https://www.youtube.com/clip/Ugkx1JPsEBitH15gVRKpwcgKpRbp3SkbXX4y"
+  },
+  {
+    "id": 8,
+    "author": "Snuffed",
+    "player": "Da Man",
+    "map": "Quarry",
+    "type_competition": "Dash League",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-05-02",
+    "note": 3.0,
+    "url": "https://youtube.com/clip/UgkxouKSofMqaooFYLS6AvgeWB726iJZs6ab?si=2e2cOcTMmeb4CDaU"
+  },
+  {
+    "id": 9,
+    "author": "Propaganda",
+    "player": "Propaganda",
+    "map": "Quarry",
+    "type_competition": "Dash League",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-05-02",
+    "note": 4.0,
+    "url": "https://www.youtube.com/clip/UgkxPNkgA6EYoyKsD2kSxRT63ucwCcYF-S8j?si=j2ijzS8RvE4QITgQ"
   }
 ]
