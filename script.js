@@ -24,7 +24,7 @@ function renderTable(data) {
       <td>${clip.date_clip}</td>
       <p><strong>Note:</strong> ${clip.note != null ? clip.note.toFixed(2) + "/5" : "N/A"}</p>
       <td>${clip.weapons.join(', ')}</td>
-      <td><a href="${clip.url}" target="_blank" rel="noopener noreferrer">Voir</a></td>
+      <td><a href="${clip.url}" target="_blank" rel="noopener noreferrer">Watch the clip</a></td>
     `;
     tbody.appendChild(tr);
   });
