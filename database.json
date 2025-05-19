@@ -61,7 +61,7 @@
       "Rockets"
     ],
     "date_clip": "2025-05-04",
-    "note": 5.0,
+    "note": 4.0,
     "url": "https://youtube.com/clip/UgkxBo9XKq_zMqGKga-rAM5RbtF3JIkxXlIg?si=VhNlfv5L1IkdwRWC"
   },
   {
@@ -113,7 +113,7 @@
       "Pistols"
     ],
     "date_clip": "2025-05-02",
-    "note": 4.5,
+    "note": 4.666666666666667,
     "url": "https://www.youtube.com/clip/UgkxPNkgA6EYoyKsD2kSxRT63ucwCcYF-S8j?si=j2ijzS8RvE4QITgQ"
   },
   {
@@ -128,5 +128,31 @@
     "date_clip": "2025-02-21",
     "note": 5.0,
     "url": "https://youtube.com/clip/UgkxjLP1aVuuiOZmcciTfwqx1s5NVmC1nq-n?si=p3DkAG1sHSo3QPS8"
+  },
+  {
+    "id": 11,
+    "author": "Toga280",
+    "player": "Toga280",
+    "map": "Abyss",
+    "type_competition": "Dash League",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-05-18",
+    "note": null,
+    "url": "https://youtube.com/clip/UgkxCKNB7leXqT1WGQpuBi0PbZer1xhowH1W?si=1GCeXeXdlxoyeODd"
+  },
+  {
+    "id": 12,
+    "author": "Toga280",
+    "player": "Lilfeeze",
+    "map": "Abyss",
+    "type_competition": "Dash League",
+    "weapons": [
+      "Pistols"
+    ],
+    "date_clip": "2025-05-18",
+    "note": null,
+    "url": "https://youtube.com/clip/UgkxhWRfb9mfkKpmQJJ7SODSRLW7Us-OW-rh?si=h7GjlqaSn-OEwBc1"
   }
 ]
